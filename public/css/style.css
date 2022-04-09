@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/cow.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -307,6 +307,11 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+.comp-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #5ca9fb;
+}
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -350,15 +355,15 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio Section */
-#portfolio {
+/* products Section */
+#products {
   padding: 100px 0;
 }
-.portfolio-item {
+.products-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
-.portfolio-item .hover-bg {
+.products-item .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -599,8 +604,113 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+.delivery {
+  text-align: left;
+}
+
+.delivery-list {
+  color: gray;
+}
+
+/*effect-underline*/
+
+/* .effect-underline:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+} */
+
+/* .effect-underline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+} */
+.effect-underline {
+  color: #333 !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.effect-underline:hover {
+  color: red;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+/* Slow-motion Zoom Container */
+
+.img-hover-zoom--slowmo img {
+  transform-origin: 50% 65%;
+  transition: transform 1.5s, filter 1s ease-in-out;
+  filter: brightness(110%);
+}
+
+/* The Transformation */
+.img-hover-zoom--slowmo:hover img {
+  filter: brightness(80%);
+  transform: scale(1.1);
+}
+
+.delivery-list-container {
+  margin-bottom: 24px;
+}
+
+.delivery-row {
+  margin: 16px 0;
+}
+
+.products-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.input:focus {
+  outline: none !important;
+  border:1px solid red;
+  box-shadow: 0 0 10px #719ECE;
+
+/* .effect-6 {
+  border: 0;
+  padding: 5px 0 7px;
+  border: 1px solid transparent;
+  border-bottom-color: #ccc;
+  transition: 0.4s;
+} */
+
+/* .effect-6:focus {
+  padding: 5px 14px 7px;
+  transition: 0.4s;
+}
+
+.effect-6 ~ .focus-border {
+  position: absolute;
+  height: 36px;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  transition: 0.4s;
+}
+.effect-6:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+  border: 2px solid #3399ff;
+} */
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  .products-items {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
