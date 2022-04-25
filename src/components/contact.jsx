@@ -17,13 +17,12 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
     emailjs
       .sendForm(
-        "service_orcskzq",
-        "template_7d6wxcp",
+        "service_b04ign7",
+        "template_9ud398p",
         e.target,
-        "Y7TyKPJc5jmgmTnFr"
+        "dVZFaVjZ0Pjy-VHnE"
       )
       .then(
         (result) => {
@@ -105,23 +104,60 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
-                {props.data ? props.data.address : "loading"}
+                <p>
+                  Compass Building, <br></br>
+                  Al Shohada Road, <br></br>
+                  Al Hamra Industrial Zone-FZ, <br></br>
+                  Ras Al Khaimah, United Arab Emirates
+                </p>
+                {/* {props.data ? props.data.address : "loading"} */}
               </p>
             </div>
+            {/* <div className="contact-item">
+              <p>
+                <span>
+                  <i className="fa fa-mail-bulk"></i> Post Office
+                </span>{" "}
+                {props.data ? props.data.phone : "loading"}
+              </p>
+            </div> */}
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                </span>
+                <a
+                  className="white-text"
+                  href={`tel:${props.data ? props.data.phone : +971504145426}`}
+                >
+                  {props.data ? props.data.phone : "loading"}
+                </a>
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                </span>
+                <a
+                  className="white-text"
+                  href={`mailto:${
+                    props.data
+                      ? props.data.email1
+                      : "contact@agriflorafz-llc.com"
+                  }`}
+                >
+                  {props.data ? props.data.email1 : "loading"}
+                </a>
+                <br />
+                <a
+                  className="white-text"
+                  href={`mailto:${
+                    props.data ? props.data.email2 : "info@agriflorafz-llc.com"
+                  }`}
+                >
+                  {props.data ? props.data.email2 : "loading"}
+                </a>
               </p>
             </div>
           </div>
@@ -153,7 +189,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            Copyright &copy; {currentYear} AgriTrade FZ-LLC, All rights
+            Copyright &copy; {currentYear} Agri Flora FZ-LLC, All rights
             reserved.
           </p>
         </div>

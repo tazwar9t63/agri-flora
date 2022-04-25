@@ -4,7 +4,7 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "was established in 2013, and through the years we have become one of the leaders in Middle east of Feather meal, Poultry meal,Fish meal , Fish Oil,Poultry Oil,Poultry and Fish feed Products as well as the largest exporter in the country.Our company mainly exports Feather meal, Fish meal, Poultry meal of 3rd category, Fish and Poultry Feed Products,agriculture products to Asian countries, EU and Africa. Thanks to good relations with customers and our reputation as a reliable supplier, we have built a big and strong supplying chain to Asia, EU and Africa.We are always glad to establish new business relations with new customers, so if you are interested in purchasing our products do not hesitate to email us at contact@agritradefz-llc.com with your requirements or call to us directly. We will make our best to satisfy your needs in protein meals and agriculture commodities",
+    "paragraph": "was established in 2013, and through the years we have become one of the leaders in Middle east of Feather meal, Poultry meal,Fish meal , Fish Oil,Poultry Oil,Poultry and Fish feed Products as well as the largest exporter in the country.Our company mainly exports Feather meal, Fish meal, Poultry meal of 3rd category, Fish and Poultry Feed Products,agriculture products to Asian countries, EU and Africa. Thanks to good relations with customers and our reputation as a reliable supplier, we have built a big and strong supplying chain to Asia, EU and Africa.We are always glad to establish new business relations with new customers, so if you are interested in purchasing our products do not hesitate to email us at  contact@agriflorafz-llc.com with your requirements or call to us directly. We will make our best to satisfy your needs in protein meals and agriculture commodities.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -21,114 +21,30 @@
   },
   "Gallery": [
     {
-      "title": "Meat bone meal Light",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "https://i.ibb.co/YZv0LCS/p1.jpg",
-      "details": {
-        "Protein": "45%-47% min",
-        "Moisture": "5% max",
-        "Fat": "15% max",
-        "Ash": "39% max",
-        "Color": "light brown to yellow",
-        "Free": "from Melamine, E.Coli and Salmonella"
-      },
-      "detailsArray": [
-        "- Protein: 62% min. ",
-        "- Moisture: 5% max. ",
-        "- Fat: 15% max. ",
-        "- Ash: 39% max. ",
-        "- Color: light brown to yellow. ",
-        "- Free: from Melamine, E.Coli and Salmonella."
-      ]
-    },
-    {
-      "title": "Meat bone meal Brown",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "https://i.ibb.co/dbWN2fz/p2.jpg",
-      "details": {
-        "Protein": "45%-47% min",
-        "Moisture": "5% max",
-        "Fat": "15% max",
-        "Ash": "39% max",
-        "Color": "light brown to yellow",
-        "Free": "from Melamine, E.Coli and Salmonella"
-      },
-      "detailsArray": [
-        "- Protein: 47%",
-        "- Moisture: 5% max.",
-        "- Fat: 15% max.",
-        "- Ash 37% max.",
-        "- Color: brown",
-        "- Free: from Melamine, E.Coli and Salmonella"
-      ]
-    },
-    {
-      "title": "Bovine meal",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "https://i.ibb.co/8PLh6RS/p3.jpg",
-      "details": {
-        "Protein": "45%-47% min",
-        "Moisture": "5% max",
-        "Fat": "15% max",
-        "Ash": "39% max",
-        "Color": "light brown to yellow",
-        "Free": "from Melamine, E.Coli and Salmonella"
-      },
-      "detailsArray": [
-        "- Protein: 47%",
-        "- Moisture: 5% max.",
-        "- Fat: 15% max.",
-        "- Ash 37% max.",
-        "- Color: light brown to yellow",
-        "- Free: from Melamine, E.Coli and Salmonella"
-      ]
-    },
-    {
       "title": "Poultry meal",
       "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "https://i.ibb.co/H7SwgKT/p4.jpg",
+      "smallImage": "https://i.ibb.co/ZSV9xXG/poultrymeal.jpg",
       "details": {
         "Protein": "45%-47% min",
         "Moisture": "5% max",
         "Fat": "15% max",
         "Ash": "39% max",
-        "Color": "light brown to yellow",
+        "Color": "Golden Brown",
         "Free": "from Melamine, E.Coli and Salmonella"
       },
       "detailsArray": [
-        "- Protein: 55% - 64% min.",
-        "- Moisture: 5% max.",
-        "- Fat: 20% max.",
-        "- Ash: 16 max.",
-        "- Color: light yellow",
-        "- Free: from Melamine, E.Coli and Salmonella"
-      ]
-    },
-    {
-      "title": "Porcine meal",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "https://i.ibb.co/jgy3M9M/p5.jpg",
-      "details": {
-        "Protein": "45%-47% min",
-        "Moisture": "5% max",
-        "Fat": "15% max",
-        "Ash": "39% max",
-        "Color": "light brown to yellow",
-        "Free": "from Melamine, E.Coli and Salmonella"
-      },
-      "detailsArray": [
-        "- Protein: 47% min.",
-        "- Moisture: 5% max.",
-        "- Fat: 15% max.",
-        "- Fat: 15% max.",
-        "- Color: light brown",
-        "- Free: from Melamine, E.Coli and Salmonella"
+        "- Protein : 55% - 64% min.",
+        "- Moisture : 5% max.",
+        "- Fat : 20% max.",
+        "- Ash : 16 max.",
+        "- Color : Golden Brown",
+        "- Free : from Melamine, E.Coli and Salmonella"
       ]
     },
     {
       "title": "Feather meal",
       "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "https://i.ibb.co/xjRKyQ8/p6.jpg",
+      "smallImage": "https://i.ibb.co/4sFpmjS/feathermeal.jpg",
       "details": {
         "Protein": "45%-47% min",
         "Moisture": "5% max",
@@ -138,18 +54,17 @@
         "Free": "from Melamine, E.Coli and Salmonella"
       },
       "detailsArray": [
-        "- Protein: 75% min.",
-        "- Moisture: 9% max.",
-        "- Fat: 12% max.",
-        "- Color: light",
-        "- Color: light brown to yellow. ",
-        "- Free: from Melamine, E.Coli and Salmonella"
+        "- Protein : 75% min.",
+        "- Moisture : 9% max.",
+        "- Fat : 12% max.",
+        "- Color : light brown to yellow. ",
+        "- Free : from Melamine, E.Coli and Salmonella"
       ]
     },
     {
       "title": "Fish meal",
       "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "https://i.ibb.co/b27yPWS/p7.jpg",
+      "smallImage": "https://i.ibb.co/wM0N7Gp/Fish-Meal.jpg",
       "details": {
         "Protein": "45%-47% min",
         "Moisture": "5% max",
@@ -159,18 +74,18 @@
         "Free": "from Melamine, E.Coli and Salmonella"
       },
       "detailsArray": [
-        "- Protein: 62% min.",
-        "- Moisture: 6% max.",
-        "- Fat: 12% max.",
-        "- Ash: 12 max.",
-        "- Color: brown",
-        "- Free: from Melamine, E.Coli and Salmonella"
+        "- Protein : 62% min.",
+        "- Moisture : 6% max.",
+        "- Fat : 12% max.",
+        "- Ash : 12 max.",
+        "- Color : brown",
+        "- Free : from Melamine, E.Coli and Salmonella"
       ]
     },
     {
-      "title": "Blood meal",
+      "title": "Fish Oil",
       "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "https://i.ibb.co/pL0LT4z/p8.jpg",
+      "smallImage": "https://i.ibb.co/zSFpxSS/fishOil.jpg",
       "details": {
         "Protein": "45%-47% min",
         "Moisture": "5% max",
@@ -180,18 +95,15 @@
         "Free": "from Melamine, E.Coli and Salmonella"
       },
       "detailsArray": [
-        "- Protein: 90% min.",
-        "- Moisture: 3% max.",
-        "- Fat: 1,5% max.",
-        "- Ash 5,2% max.",
-        "- Ash 5,2% max.",
-        "- Free: from Melamine, E.Coli and Salmonella"
+        "- FFA : Below 5%.",
+        "- Iodine : 140% min.",
+        "- Moisture : 0.3% - 0.5%."
       ]
     },
     {
       "title": "Soybean meal",
       "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "https://i.ibb.co/S0Nxw5c/p9.jpg",
+      "smallImage": "https://i.ibb.co/mzBzdxK/product-500x500.jpg",
       "details": {
         "Protein": "45%-47% min",
         "Moisture": "5% max",
@@ -201,58 +113,58 @@
         "Free": "from Melamine, E.Coli and Salmonella"
       },
       "detailsArray": [
-        "- Protein: 45% min.",
-        "- Moisture: 8% max.",
-        "- Color: light yellow",
-        "- Free: from Melamine, E.Coli and Salmonella"
+        "- Protein : 45% min.",
+        "- Moisture : 8% max.",
+        "- Color : light yellow",
+        "- Free : from Melamine, E.Coli and Salmonella"
       ]
     }
   ],
   "Deliveries": [
     {
       "icon": "fa fa-wordpress",
-      "name": "EVERGREEN MARINE CORP. line",
-      "link": "http://www.shipmentlink.com/servlet/TDB1_CargoTracking.do"
+      "name": "Port Khalifa (AEKHL)Abu Dhabi",
+      "link": "https://adterminals.ae/en/container-tracking"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "MAERSK line",
-      "link": "https://www.maersk.com/"
+      "name": "Mina Zayed (AEMZD) Abu Dhabi",
+      "link": "https://www.searates.com/fr/maritime/united_arab_emirates"
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "APL line",
-      "link": "http://www.apl.com/"
+      "name": "Musaffah Port (AEAMF) Abu Dhabi",
+      "link": "https://www.marinetraffic.com/en/ais/details/ports/3146?name=MUSAFFAH&country=United-Arab-Emirates"
     },
     {
       "icon": "fa fa-language",
-      "name": "COSCO Shipping",
-      "link": "http://ebusiness.coscon.com/NewEB/informationQueryAndSubscribe.html?node=2002"
+      "name": "Port Jebel Ali (AEJEA) Dubai",
+      "link": "https://www.myshiptracking.com/ports/port-of-jebel-ali-in-ae-uae-id-228"
     },
     {
       "icon": "fa fa-plane",
-      "name": "MSC line",
-      "link": "https://www.msc.com/track-a-shipment?link?keepthis=true&agencypath=pan&lang=en-gb"
+      "name": "Mina Rashid (AEDXB) Dubai",
+      "link": "https://www.vesselfinder.com/ports/AEDXB001"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "OOCL line",
-      "link": "http://www.oocl.com/eng/ourservices/eservices/cargotracking/Pages/cargotracking.aspx?site=uk&lang=eng"
+      "name": "Mina Al Hamriyah (AEHAM) Dubai",
+      "link": "https://www.marinetraffic.com/en/ais/details/ports/1699?name=HAMRIYA&country=United-Arab-Emirates"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "CMA CGM",
-      "link": "https://www.cma-cgm.com/ebusiness/tracking"
+      "name": "Port of Fujairah (AEFJR) Fujairah",
+      "link": "https://www.marinetraffic.com/en/ais/details/ports/790?name=FUJAIRAH&country=United-Arab-Emirates"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Hapag Lloyd",
-      "link": "https://www.hapag-lloyd.com/en/online-business/tracing/tracing-by-booking.html"
+      "name": "Port of Ras Al Khaimah (AERKT) Ras Al Khaimah",
+      "link": "https://www.marinetraffic.com/en/ais/details/ports/18604?name=RAS-AL-KHAIMAH&country=United-Arab-Emirates"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Hamburg Sud",
-      "link": "https://www.hamburgsud-line.com/liner/en/liner_services/ecommerce/track_trace/index.html"
+      "name": "Port of Khor Al Fakkan (AEKLF) Sharjah",
+      "link": "https://www.marinetraffic.com/en/ais/details/ports/18560?name=KHOR-FAKKAN&country=United-Arab-Emirates"
     }
   ],
   "Testimonials": [
@@ -295,12 +207,13 @@
     }
   ],
   "Contact": {
-    "address": "Dhaka 1212, Bangladesh",
-    "phone": "+880 1234567788",
-    "email": "contact@agritradefz-llc.com",
-    "facebook": "fb.com/agritradefz-llc",
-    "twitter": "twitter.com/agritradefz-llc",
-    "youtube": "youtube.com/agritradefz-llc"
+    "address": "Compass Building,Al Shohada Road,Al Hamra Industrial Zone-FZ,Ras Al Khaimah, United Arab Emirates",
+    "phone": "+971504145426",
+    "email1": "contact@agriflorafz-llc.com",
+    "email2": "info@agriflorafz-llc.com",
+    "facebook": "fb.com/AgriFlorafz-llc",
+    "twitter": "twitter.com/AgriFlorafz-llc",
+    "youtube": "youtube.com/AgriFlorafz-llc"
   },
   "Features": [
     {

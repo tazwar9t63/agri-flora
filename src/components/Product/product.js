@@ -2,8 +2,6 @@ import React from "react";
 import "./product.scss";
 
 export default function SingleProduct({ product }) {
-  console.log({ product });
-
   return (
     <>
       {product &&
@@ -11,7 +9,9 @@ export default function SingleProduct({ product }) {
           <div className="product-wrapper">
             <div className="product-container">
               <div
-                className="top"
+                className={`${
+                  d.title === "Fish Oil" ? "cover-none top" : "top"
+                }`}
                 style={{
                   backgroundImage: `url(${d.smallImage})`,
                   backgroundPosition: "center",

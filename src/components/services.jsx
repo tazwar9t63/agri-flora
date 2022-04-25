@@ -43,9 +43,8 @@ export const Delivery = (props) => {
           </div>
         </div>
         <p>
-          We supply our products in 40 FT and 20 FT containers from the ports:
-          Ancona, Genova - Italy, Gdynia - Poland, Odesa - Ukraine, Koper -
-          Slovenia, UK - Felixtowe/Grangemouth.
+          We supply our products in 40 FT and 20 FT containers from the ports of
+          UAE
         </p>
         <p>Delivery according to INCOTERMS 2010 - FOB/CIF/CFR.</p>
       </div>

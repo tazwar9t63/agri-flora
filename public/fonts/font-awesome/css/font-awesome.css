@@ -1030,6 +1030,9 @@
 .fa-fire-extinguisher:before {
   content: "\f134";
 }
+.fa-mail-bulk:before { 
+  content: "\f674";
+}
 .fa-rocket:before {
   content: "\f135";
 }

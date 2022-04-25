@@ -6,7 +6,7 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Products</h2>
-          <p>
+          {/* <p>
             Download
             <span style={{ marginLeft: "10px" }}>
               <a
@@ -16,7 +16,7 @@ export const Gallery = (props) => {
                 specifications of the protein meals in pdf
               </a>
             </span>
-          </p>
+          </p> */}
         </div>
         <div className="row">
           <div className="products-items">

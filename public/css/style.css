@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #55a35a 0%, #a6ce37 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #55a35a 0%, #a6ce37 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #a6ce37 0%, #55a35a 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -166,8 +166,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #a6ce37;
+  background-image: linear-gradient(to right, #a6ce37 0%, #55a35a 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -184,7 +184,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #55a35a;
 }
 .btn:active,
 .btn.active {
@@ -229,7 +229,7 @@ a:focus,
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #a6ce37;
 }
 .intro p {
   color: #fff;
@@ -257,7 +257,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #55a35a 0%, #a6ce37 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +276,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #a6ce37 0%, #55a35a 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,7 +291,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #a6ce37;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -310,12 +310,12 @@ header .intro-text {
 .comp-name {
   font-size: 20px;
   font-weight: 700;
-  color: #5ca9fb;
+  color: #a6ce37;
 }
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #55a35a 0%, #a6ce37 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -339,7 +339,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #55a35a 0%, #a6ce37 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -465,7 +465,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #55a35a 0%, #a6ce37 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -612,6 +612,13 @@ label {
   color: gray;
 }
 
+.navbar-brand > img {
+  height: 81px;
+  width: auto;
+  position: absolute;
+  top: 0;
+}
+
 /*effect-underline*/
 
 /* .effect-underline:after {
@@ -670,13 +677,46 @@ label {
 
 .products-items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.carousel {
+  padding-top: 81px;
+}
+
+.awssld__wrapper {
+  height: auto !important;
 }
 
 .input:focus {
   outline: none !important;
-  border:1px solid red;
-  box-shadow: 0 0 10px #719ECE;
+  border: 1px solid red;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.awssld__bullets button {
+  background: #1e7a46 !important;
+}
+
+.awssld__bullets .awssld__bullets--active {
+  background: #a6ce37 !important;
+}
+.awssld__controls button {
+  color: #a6ce37 !important;
+}
+
+.white-text{
+  color: white;
+}
+
+/* @media screen and (max-width: 600px) {
+  .navbar-brand > img {
+    height: 81px;
+    width: auto;
+    position: absolute;
+    top: 0;
+  }
+} */
 
 /* .effect-6 {
   border: 0;
@@ -704,13 +744,3 @@ label {
   transition: 0.4s;
   border: 2px solid #3399ff;
 } */
-
-@media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
-  }
-  .products-items {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}

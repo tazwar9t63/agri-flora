@@ -15,7 +15,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            AgriTrade FZ-LLC
+            <img src="https://i.ibb.co/y0VpbDz/logo.jpg" alt="brand logo" />
           </a>
         </div>
 

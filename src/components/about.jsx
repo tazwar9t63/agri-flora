@@ -3,14 +3,14 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6 img-hover-zoom--slowmo">
+          {/* <div className="col-xs-12 col-md-6 img-hover-zoom--slowmo">
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
-          </div>
-          <div className="col-xs-12 col-md-6">
+          </div> */}
+          <div className="col-xs-12 col-md-12">
             <div className="about-text">
               <h2>About Us</h2>
               <p>
-                <span className="comp-name">AgriTrade FZ-LLC </span>
+                <span className="comp-name">Agri Flora FZ-LLC </span>
                 {props.data ? props.data.paragraph : "loading..."}
               </p>
               {/* <h3>Why Choose Us?</h3>
