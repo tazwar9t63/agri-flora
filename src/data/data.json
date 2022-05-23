@@ -4,7 +4,7 @@
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {
-    "paragraph": "was established in 2013, and through the years we have become one of the leaders in Middle east of Feather meal, Poultry meal,Fish meal , Fish Oil,Poultry Oil,Poultry and Fish feed Products as well as the largest exporter in the country.Our company mainly exports Feather meal, Fish meal, Poultry meal of 3rd category, Fish and Poultry Feed Products,agriculture products to Asian countries, EU and Africa. Thanks to good relations with customers and our reputation as a reliable supplier, we have built a big and strong supplying chain to Asia, EU and Africa.We are always glad to establish new business relations with new customers, so if you are interested in purchasing our products do not hesitate to email us at  contact@agriflorafz-llc.com with your requirements or call to us directly. We will make our best to satisfy your needs in protein meals and agriculture commodities.",
+    "paragraph": "was established in 2013, and through the years we have become one of the leaders in Middle east of Feather meal,Poultry meal,Fish meal,Fish Oil,Poultry Oil,Poultry and Fish feed Products as well as the largest exporter in the country.Our company mainly exports Feather meal, Fish meal, Poultry meal of 3rd category, Fish and Poultry Feed Products,agriculture products to Asian countries, EU and Africa. Thanks to good relations with customers and our reputation as a reliable supplier, we have built a big and strong supplying chain to Asia, EU and Africa.We are always glad to establish new business relations with new customers, so if you are interested in purchasing our products do not hesitate to email us at  contact@agriflorafz-llc.com with your requirements or call to us directly. We will make our best to satisfy your needs in protein meals and agriculture commodities.",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -30,15 +30,15 @@
         "Fat": "15% max",
         "Ash": "39% max",
         "Color": "Golden Brown",
-        "Free": "from Melamine, E.Coli and Salmonella"
+        "Free": "From Melamine, E.Coli and Salmonella"
       },
       "detailsArray": [
         "- Protein : 55% - 64% min.",
         "- Moisture : 5% max.",
         "- Fat : 20% max.",
-        "- Ash : 16 max.",
+        "- Ash : 16% max.",
         "- Color : Golden Brown",
-        "- Free : from Melamine, E.Coli and Salmonella"
+        "- Free : From Melamine, E.Coli and Salmonella"
       ]
     },
     {
@@ -58,7 +58,7 @@
         "- Moisture : 9% max.",
         "- Fat : 12% max.",
         "- Color : light brown to yellow. ",
-        "- Free : from Melamine, E.Coli and Salmonella"
+        "- Free : From Melamine, E.Coli and Salmonella"
       ]
     },
     {
@@ -70,16 +70,16 @@
         "Moisture": "5% max",
         "Fat": "15% max",
         "Ash": "39% max",
-        "Color": "light brown to yellow",
+        "Color": "light Brown to Yellow",
         "Free": "from Melamine, E.Coli and Salmonella"
       },
       "detailsArray": [
         "- Protein : 62% min.",
         "- Moisture : 6% max.",
         "- Fat : 12% max.",
-        "- Ash : 12 max.",
-        "- Color : brown",
-        "- Free : from Melamine, E.Coli and Salmonella"
+        "- Ash : 12% max.",
+        "- Color : Brown",
+        "- Free : From Melamine, E.Coli and Salmonella"
       ]
     },
     {
@@ -116,7 +116,7 @@
         "- Protein : 45% min.",
         "- Moisture : 8% max.",
         "- Color : light yellow",
-        "- Free : from Melamine, E.Coli and Salmonella"
+        "- Free : From Melamine, E.Coli and Salmonella"
       ]
     }
   ],
