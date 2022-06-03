@@ -8,6 +8,7 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [messageSent, setMessageSent] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -26,9 +27,13 @@ export const Contact = (props) => {
       )
       .then(
         (result) => {
+          setMessageSent(true);
+  
           clearState();
         },
-        (error) => {}
+        (error) => {
+
+        }
       );
   };
 
@@ -47,7 +52,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              {!messageSent ? <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -94,7 +99,8 @@ export const Contact = (props) => {
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
-              </form>
+              </form> : <div className="alert alert-success"> message sent successfully <button onClick={()=>setMessageSent(false)}>Sent Message Again</button> </div> }
+              
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
