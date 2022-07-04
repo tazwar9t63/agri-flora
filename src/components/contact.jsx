@@ -8,6 +8,9 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [messageSent, setMessageSent] = useState(false);
+  const [loader, setLoader] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -17,6 +20,7 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoader(true);
     emailjs
       .sendForm(
         "service_b04ign7",
@@ -26,9 +30,14 @@ export const Contact = (props) => {
       )
       .then(
         (result) => {
+          setLoader(false);
+          setMessageSent(true);
+  
           clearState();
         },
-        (error) => {}
+        (error) => {
+          setError(true)
+        }
       );
   };
 
@@ -47,7 +56,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              {!messageSent ? <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -92,9 +101,10 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  {!loader ? " Send Message" : "sending...."}
                 </button>
-              </form>
+              </form> : <div className="alert-success-msg"><span>{!error ? "Message sent successfully!" : "Sorry, failed!"}  </span> <button className="btn btn-custom btn-lg" onClick={()=>setMessageSent(false)}>Send Message Again</button> </div> }
+              
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">

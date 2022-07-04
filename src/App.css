@@ -48,3 +48,18 @@
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
 }
+
+.alert-success-msg{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.alert-success-msg span{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 7px;
+}
